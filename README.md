@@ -296,12 +296,14 @@
 基于梯度的优化方法是一种常见的优化算法，用于在机器学习中训练模型。该方法通过计算损失函数相对于模型参数的梯度来更新模型参数，以最小化损失函数。
 这些方法通常使用反向传播算法来计算梯度，并使用梯度下降等技术来更新模型参数。
 
-* BasicNotes [[notes]](./Machine%20Learning/Optimization%20Algorithm/basisNote.md)
-* SGD [[notes]](./Machine%20Learning/Optimization%20Algorithm/SGD.md)
-* Momentum [[notes]](./Machine%20Learning/Optimization%20Algorithm/momentum.md)
-* RMSProp [[notes]](./Machine%20Learning/Optimization%20Algorithm/RMSProp.md)
-* AdaGrad [[pdf]](https://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf) [[notes]](./Machine%20Learning/Optimization%20Algorithm/adaGrad.md)
-* Adam: [[pdf]](https://arxiv.org/pdf/1412.6980.pdf) [[notes]](./Machine%20Learning/Optimization%20Algorithm/adam.md)
+* BasicNotes [[notes]](./Machine%20Learning/Optimization/GradientOpt/basisNote.md)
+* SGD [[notes]](./Machine%20Learning/Optimization/GradientOpt/SGD.md)
+* Momentum [[notes]](./Machine%20Learning/Optimization/GradientOpt/momentum.md)
+* RMSProp [[notes]](./Machine%20Learning/Optimization/GradientOpt/RMSProp.md)
+* AdaGrad [[pdf]](https://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf) 
+[[notes]](./Machine%20Learning/Optimization/GradientOpt/adaGrad.md)
+* Adam: [[pdf]](https://arxiv.org/pdf/1412.6980.pdf) 
+[[notes]](./Machine%20Learning/Optimization/GradientOpt/adam.md)
 
 
 
