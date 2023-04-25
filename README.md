@@ -50,6 +50,8 @@
 （例如颜色、形状、位置和大小）来判断其他图片中应该存在何种对象。这些已有的特征帮助生成模型扫描图片并识别里面包含的对象。 
 此外，生成模型也可以用来生成声音信号、文字信息和合成图片。
 
+<font color="DarkRed">**Key Paper List of Generative Model**</font>
+
 * **[VAE]** Auto-Encoding Variational Bayes
 [[pdf]](https://arxiv.org/pdf/1312.6114.pdf)
 [[notes]](./Machine%20Learning/Generative%20AI/Generative%20Model/VAE.md)
