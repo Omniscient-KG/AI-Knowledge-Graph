@@ -50,6 +50,13 @@
 （例如颜色、形状、位置和大小）来判断其他图片中应该存在何种对象。这些已有的特征帮助生成模型扫描图片并识别里面包含的对象。 
 此外，生成模型也可以用来生成声音信号、文字信息和合成图片。
 
+**Generative Model Survey**
+* 扩散模型的缘起与今生 
+[[pdf]](https://arxiv.org/pdf/2208.11970.pdf) 
+[[notes]](./Machine%20Learning/Generative%20AI/Generative%20Model/Survey_DM.md)
+
+**Key Paper List of Generative Model**
+
 * **[VAE]** Auto-Encoding Variational Bayes
 [[pdf]](https://arxiv.org/pdf/1312.6114.pdf)
 [[notes]](./Machine%20Learning/Generative%20AI/Generative%20Model/VAE.md)
@@ -88,6 +95,8 @@
 预训练模型通常通过对模型参数进行训练来提高模型的性能，从而使模型在真实数据上有更好表现。
 预训练模型的优点在于可以提高模型的性能，从而更好地满足实际应用的需求。但是，这种模型也存在一定的局限性，比如训练数据量较小时，可能无法获得有效的训练结果，或者训练模型可能会出现过拟合现象。
 
+
+**Key Paper List of Pre-training Model**
 * BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. 
 [[pdf]](https://arxiv.org/pdf/1810.04805.pdf&usg=ALkJrhhzxlCL6yTht2BRmH9atgvKFxHsxQ)
 [[notes]](./Machine%20Learning/Generative%20AI/Pre-training%20Model/BERT.md)
@@ -342,9 +351,10 @@ CTR预估是指通过分析用户的历史行为数据，预测用户是否会�
 CTR预估在在线广告、推荐系统、搜索引擎等个性化在线服务中扮演着核心的功能模块。
 通过CTR预估，可以提高广告和推荐内容的精准度，从而提高用户的满意度和平台的收益。
 
-* Deep Learning for Click-Through Rate Estimation
+**Click-Through Rate Survey**
+* 深度学习与CTR预估的缘起与今生
 [[pdf]](https://arxiv.org/pdf/2104.10584.pdf)
-[[notes]](./Applications/Ads%20Recommendation/Click-Through%20Rate/DLReview.md)
+[[notes]](./Applications/Ads%20Recommendation/Click-Through%20Rate/Survey_CTR.md)
 
 ## *五、程序语言领域*
 
