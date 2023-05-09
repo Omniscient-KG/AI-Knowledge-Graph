@@ -305,7 +305,9 @@
 基于梯度的优化方法是一种常见的优化算法，用于在机器学习中训练模型。该方法通过计算损失函数相对于模型参数的梯度来更新模型参数，以最小化损失函数。
 这些方法通常使用反向传播算法来计算梯度，并使用梯度下降等技术来更新模型参数。
 
-* BasicNotes [[notes]](./Machine%20Learning/Optimization/GradientOpt/basisNote.md)
+* 最优化技术详解 [[notes]](./Machine%20Learning/Optimization/GradientOpt/basisNote.md)
+
+Key Paper List of Optimization
 * SGD [[notes]](./Machine%20Learning/Optimization/GradientOpt/SGD.md)
 * Momentum [[notes]](./Machine%20Learning/Optimization/GradientOpt/momentum.md)
 * RMSProp [[notes]](./Machine%20Learning/Optimization/GradientOpt/RMSProp.md)
@@ -352,7 +354,7 @@ CTR预估在在线广告、推荐系统、搜索引擎等个性化在线服务�
 通过CTR预估，可以提高广告和推荐内容的精准度，从而提高用户的满意度和平台的收益。
 
 **Click-Through Rate Survey**
-* 深度学习与CTR预估的缘起与今生
+* 一文读懂深度学习与CTR预估的关键技术
 [[pdf]](https://arxiv.org/pdf/2104.10584.pdf)
 [[notes]](./Applications/Ads%20Recommendation/Click-Through%20Rate/Survey_CTR.md)
 
