@@ -137,6 +137,9 @@
 强化学习的过程可以描述为：智能体（Agent）从环境（Environment）中获得观察（Observation），然后根据观察选择行动（Action），
 行动导致环境发生变化，变化产生新的状态和奖励（Reward），奖励可以让智能体学习到哪些行动有利于达到最终目标。
 
+* 强化学习的基础知识
+[[notes]](./Machine%20Learning/Generative%20AI/Reinforcement%20Learning/basicNote.md)
+
 **Books**
 * Reinforcement Learning: an Introduction 
 [[pdf]](http://incompleteideas.net/book/RLbook2018.pdf)
@@ -147,15 +150,33 @@
 * UCL $\times$ DeepMind Reinforcement Learning 
 [[slides]](https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021)
 
-**Paper List**
-* **[BasicNotes]** 
-[[notes]](./Machine%20Learning/Generative%20AI/Reinforcement%20Learning/basicNote.md)
+**Key Paper List of Reinforcement Learning**
+* **[AlphaGo]** Mastering the game of Go with deep neural networks and tree search
+[[pdf]](https://www.rose-hulman.edu/class/cs/csse413/schedule/day16/MasteringTheGameofGo.pdf)
+[[notes]](Machine%20Learning%2FGenerative%20AI%2FReinforcement%20Learning%2FAlphaGo.md)
+* **[AlphaGo Zero]** Mastering the Game of Go without Human Knowledge
+[[pdf]](https://discovery.ucl.ac.uk/id/eprint/10045895/1/agz_unformatted_nature.pdf)
+[[notes]](Machine%20Learning%2FGenerative%20AI%2FReinforcement%20Learning%2FAlphaGo%20Zero.md)
 * **[DQN]** Human-level control through deep reinforcement learning
 [[pdf]](https://daiwk.github.io/assets/dqn.pdf) 
 [[notes]](./Machine%20Learning/Generative%20AI/Reinforcement%20Learning/DQN.md)
+* **[DDPG]** Continuous Control with Deep Reinforcement Learning
+[[pdf]](https://arxiv.org/pdf/1509.02971.pdf)
+[[notes]](Machine%20Learning%2FGenerative%20AI%2FReinforcement%20Learning%2FDDPG.md)
+* **[A3C]** Asynchronous Methods for Deep Reinforcement Learning
+[[pdf]](http://proceedings.mlr.press/v48/mniha16.pdf)
+[[notes]](Machine%20Learning%2FGenerative%20AI%2FReinforcement%20Learning%2FA3C.md)
+* **[TD3]** Addressing Function Approximation Error in Actor-Critic Methods
+[[pdf]](http://proceedings.mlr.press/v80/fujimoto18a/fujimoto18a.pdf)
+[[notes]](Machine%20Learning%2FGenerative%20AI%2FReinforcement%20Learning%2FTD3.md)
+* **[TRPO]** Trust Region Policy Optimization
+[[pdf]](http://proceedings.mlr.press/v37/schulman15.pdf)
+[[notes]](Machine%20Learning%2FGenerative%20AI%2FReinforcement%20Learning%2FTRPO.md)
 * **[PPO]** Proximal Policy Optimization Algorithms
 [[pdf]](https://arxiv.org/pdf/1707.06347.pdf)
 [[notes]](./Machine%20Learning/Generative%20AI/Reinforcement%20Learning/PPO.md)
+* **[SAC]** Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor
+[[pdf]](http://proceedings.mlr.press/v80/haarnoja18b/haarnoja18b.pdf)
 
 
 ### 2. Graph/Network
