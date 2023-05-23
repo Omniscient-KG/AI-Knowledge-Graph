@@ -144,6 +144,18 @@
 * * **[Chinchilla]** Training Compute-Optimal Large Language Models
 [[pdf]](https://arxiv.org/pdf/2203.15556.pdf)
 [[notes]](Machine%20Learning%2FGenerative%20AI%2FPre-training%20Model%2FChinchilla.md)
+* **HuggingFace**
+* * **[TransferTransfo]** TransferTransfo: A Transfer Learning Approach for Neural Network Based Conversational Agents
+[[pdf]](https://arxiv.org/pdf/1901.08149.pdf)
+[[notes]](Machine%20Learning%2FGenerative%20AI%2FPre-training%20Model%2FTransferTransfo.md)
+* **BigScience**
+* * **[BLOOM]** BLOOM: A 176B-Parameter Open-Access Multilingual Language Model
+[[pdf]](https://arxiv.org/pdf/2211.05100.pdf)
+[[notes]](Machine%20Learning%2FGenerative%20AI%2FPre-training%20Model%2FBLOOM.md)
+* **Tsinghua University** 
+* * **[GLM]** GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
+[[pdf]](https://arxiv.org/pdf/2210.02414.pdf)
+[[notes]](Machine%20Learning%2FGenerative%20AI%2FPre-training%20Model%2FGLM.md)
 
 
 **Key Paper List of Fine-tuning**
