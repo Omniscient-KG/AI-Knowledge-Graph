@@ -97,28 +97,65 @@
 
 
 **Key Paper List of Pre-training Model**
-* BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. 
+* **Google**
+* * **[BERT]** BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. 
 [[pdf]](https://arxiv.org/pdf/1810.04805.pdf&usg=ALkJrhhzxlCL6yTht2BRmH9atgvKFxHsxQ)
 [[notes]](./Machine%20Learning/Generative%20AI/Pre-training%20Model/BERT.md)
-* Improving Language Understanding by Generative Pre-Training
+* * **[T5]** Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
+[[pdf]](https://www.jmlr.org/papers/volume21/20-074/20-074.pdf)
+[[notes]](Machine%20Learning%2FGenerative%20AI%2FPre-training%20Model%2FT5.md)
+* * **[PaLM]** PaLM: Scaling Language Modeling with Pathways
+[[pdf]](https://arxiv.org/pdf/2204.02311.pdf)
+[[notes]](Machine%20Learning%2FGenerative%20AI%2FPre-training%20Model%2FPaLM.md)
+* * **[LaMDA]** LaMDA: Language Models for Dialog Applications
+[[pdf]](https://arxiv.org/pdf/2201.08239.pdf)
+[[notes]](Machine%20Learning%2FGenerative%20AI%2FPre-training%20Model%2FLaMDA.md)
+* **OpenAI**
+* * **[GPT]** Improving Language Understanding by Generative Pre-Training
 [[pdf]](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)
 [[notes]](./Machine%20Learning/Generative%20AI/Pre-training%20Model/GPT.md)
-* Language Models are Unsupervised Multitask Learners
+* * **[GPT2]** Language Models are Unsupervised Multitask Learners
 [[pdf]](https://cs.brown.edu/courses/csci1460/assets/papers/language_models_are_unsupervised_multitask_learners.pdf) 
 [[notes]](./Machine%20Learning/Generative%20AI/Pre-training%20Model/GPT2.md)
-* Language Models are Few-Shot Learners
+* * **[GPT3]** Language Models are Few-Shot Learners
 [[pdf]](https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)
 [[notes]](./Machine%20Learning/Generative%20AI/Pre-training%20Model/GPT3.md)
-* Training language models to follow instructions with human feedback
+* * **[InstructGPT]** Training language models to follow instructions with human feedback
 [[pdf]](https://arxiv.org/pdf/2203.02155.pdf?fbclid=IwAR2nZdBpdZZzvxpwI6H_bRmP4RwGOyzke9Ud63lWBe1YlyI_1BRAFhnUMUg)
 [[notes]](./Machine%20Learning/Generative%20AI/Pre-training%20Model/InstructGPT.md)
-* WebGPT: Browser-assisted question-answering with human feedback
+* * **[WebGPT]** WebGPT: Browser-assisted question-answering with human feedback
 [[pdf]](https://arxiv.org/pdf/2112.09332.pdf) 
 [[notes]](./Machine%20Learning/Generative%20AI/Pre-training%20Model/WebGPT.md)
-* LaMDA: Language Models for Dialog Applications
-[[pdf]](https://arxiv.org/pdf/2201.08239.pdf) 
-[[notes]](./Machine%20Learning/Generative%20AI/Pre-training%20Model/LaMDA.md)
+* **Microsoft**
+* * **[DIALOGPT]** DIALOGPT: Large-Scale Generative Pre-training for Conversational Response Generation
+[[pdf]](https://arxiv.org/pdf/1911.00536.pdf)
+[[notes]](Machine%20Learning%2FGenerative%20AI%2FPre-training%20Model%2FDIALOGPT.md)
+* **Meta**
+* * **[OPT]** OPT: Open Pre-trained Transformer Language Models
+[[pdf]](https://arxiv.org/pdf/2205.01068.pdf)
+[[notes]](Machine%20Learning%2FGenerative%20AI%2FPre-training%20Model%2FOPT.md)
+* * **[LLaMA]** LLaMA: Open and Efficient Foundation Language Models
+[[pdf]](https://arxiv.org/pdf/2302.13971.pdf)
+[[notes]](Machine%20Learning%2FGenerative%20AI%2FPre-training%20Model%2FLLaMA.md)
+* **DeepMind**
+* * **[Gopher]** Scaling Language Models: Methods, Analysis & Insights from Training Gopher
+[[pdf]](https://arxiv.org/pdf/2112.11446.pdf)
+[[notes]](Machine%20Learning%2FGenerative%20AI%2FPre-training%20Model%2FGopher.md)
+* * **[Chinchilla]** Training Compute-Optimal Large Language Models
+[[pdf]](https://arxiv.org/pdf/2203.15556.pdf)
+[[notes]](Machine%20Learning%2FGenerative%20AI%2FPre-training%20Model%2FChinchilla.md)
 
+
+**Key Paper List of Fine-tuning**
+* **[Adapters]** Parameter-Efficient Transfer Learning for NLP
+[[pdf]](https://arxiv.org/pdf/1902.00751.pdf)
+[[notes]](Machine%20Learning%2FGenerative%20AI%2FPre-training%20Model%2FAdapters.md)
+* **[Prefix]** Prefix-Tuning: Optimizing Continuous Prompts for Generation
+[[pdf]](https://arxiv.org/pdf/2101.00190.pdf)
+[[notes]](Machine%20Learning%2FGenerative%20AI%2FPre-training%20Model%2FPrefix.md)
+* **[Lora]** Lora: Low-rank Adaptation of Large Language Models
+[[pdf]](https://arxiv.org/pdf/2106.09685.pdf)
+[[notes]](Machine%20Learning%2FGenerative%20AI%2FPre-training%20Model%2FLora.md)
 
 #### 1-C In-Context Learning
 
@@ -347,7 +384,8 @@ Key Paper List of Optimization
 
 SLAM（Simultaneous Localization and Mapping）指的是同时完成机器人的定位和地图构建的技术。
 SLAM的核心思想是利用传感器（如激光雷达，视觉等）搜集的数据来实时构建、更新和维护机器人的位置和环境地图，从而实现机器人的自主定位、自主导航等。
-SLAM的目的在于实现机器人的自主理解和规划，并且能够面对环境变化快速响应。 
+SLAM的目的在于实现机器人的自主理解和规划，并且能够面对环境变化快速响应。
+
 SLAM的技术结构上分为前端传感器数据处理和后端建模优化两个部分。
 前端传感器处理主要包括数据采集、特征提取、路径追踪、数据融合等，以实现机器人的定位；后端建模优化主要包括非线性优化、地图构建等，实现机器人的环境建模和地图更新等功能。 
 SLAM技术对机器人导航技术具有重要意义，能够有效提高机器人的自主性，为机器人导航赋予智能。
